@@ -73,3 +73,24 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+:root {
+  ---lily-white: hsl(210, 40%, 98%);
+  ---silver: hsl(0, 0%, 85%);
+  ---very-dark-gray: hsl(217, 12%, 34%); 
+}
+* {
+ font-family: 'Poppins', sans-serif; 
+}
+h1, h3 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 2.25rem; 
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
