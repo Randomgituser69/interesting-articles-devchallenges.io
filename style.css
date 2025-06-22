@@ -122,16 +122,15 @@ main {
   display: flex;
   flex-direction: row;
   gap: 6rem;
-  align-items: center;
 }
 #chobi {
   border-radius: 8px;
-}
+} /*
 @media screen and (min-width: 37.5rem) {
- /* #mobile {
+  #mobile {
     display: none;
   }
   #desktop {
     display: block;
-  } */
-}
+  }
+} */
