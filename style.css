@@ -86,7 +86,7 @@ textarea:not([rows]) {
 body {
   background-color: var(---lily-white);
   align-items: center;
-  padding: 0.500rem;
+  padding: 1rem;
   margin: 2rem;
 }
 h1, h2 {
@@ -126,6 +126,10 @@ main {
   margin: 2rem;
   margin-top: 1em;
 } 
+footer {
+  text-align: center;
+  color: var(---silver);
+}
 #idk {
   color: var(---silver);
 } 
@@ -133,10 +137,11 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 5.5rem;
 }
 .item img {
-  width: 50%;
-  height: 50%;
+  width: 16%;
+  height: 16%;
   border-radius: 8px;
 } /*
 @media screen and (min-width: 37.5rem) {
