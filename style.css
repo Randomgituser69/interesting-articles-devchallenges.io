@@ -1,4 +1,5 @@
-/* CSS Reset by Andy Bell */
+/* CSS Reset by Andy Bell 👇*/
+
 /* Box sizing rules */
 *,
 *::before,
@@ -73,7 +74,7 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-/* CSS Styles */
+/* CSS Styles 👇 */
 :root {
   ---lily-white: hsl(210, 40%, 98%);
   ---silver: hsl(0, 0%, 85%);
@@ -83,12 +84,13 @@ textarea:not([rows]) {
  font-family: 'Poppins', sans-serif; 
 }
 body {
+  background-color: var(---lily-white);
   align-items: center;
   padding: 0.500rem;
   margin: 2rem;
 }
 h1, h2 {
-font-weight: 600;
+  font-weight: 600;
 }
 h1 {
   width: 85vw;
@@ -104,6 +106,7 @@ h2 {
   display: none;
 } */
 p {
+  color: var(---very-dark-gray);
   font-size: 0.875rem;
   font-weight: 500;
 }
@@ -122,7 +125,10 @@ main {
   gap: 2rem;
   margin: 2rem;
   margin-top: 1em;
-}
+} 
+#idk {
+  color: var(---silver);
+} 
 .item {
   display: flex;
   flex-direction: row;
