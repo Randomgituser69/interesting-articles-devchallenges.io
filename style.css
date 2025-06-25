@@ -85,14 +85,14 @@ textarea:not([rows]) {
 }
 body {
   background-color: var(---lily-white);
-  padding: 1rem 8rem;
+  padding: 1rem 5rem;
   margin: 2rem;
 }
 h1, h2 {
   font-weight: 600;
 }
 h1 {
-  width: 79vw;
+  width: 85vw;
   height: auto;
   font-size: 2.25rem; 
 }
@@ -112,8 +112,7 @@ p {
 header {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  padding: 1rem;
+  gap: 1rem;
   text-align: center;
   align-items: center;
 }
@@ -122,15 +121,15 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin: 4rem;
-  margin-top: 2em;
+  margin: 1rem;
+  margin-top: 1em;
 } 
 footer {
   text-align: center;
 }
 img[src="Seperator.svg"] {
-  height: 25%;
-  width: 25%;
+  height: 12rem;
+  width: 12rem;
   color: var(---silver);
 } 
 .item {
@@ -140,8 +139,8 @@ img[src="Seperator.svg"] {
   gap: 5.5rem;
 }
 .item img {
-  width: 22%;
-  height: 22%;
+  width: 10rem;
+  height: 10rem;
   border-radius: 8px;
 } /*
 @media screen and (min-width: 37.5rem) {
